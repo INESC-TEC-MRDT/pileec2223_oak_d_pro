@@ -18,7 +18,7 @@ sudo apt dist-upgrade
 #  Install ROS package
 sudo apt install ros-noetic-rtabmap-ros ros-noetic-robot-localization ros-noetic-imu-filter-madgwick ros-noetic-octomap-rviz-plugins
 ```
-
+**Note** Before running slam check the document `doc/slam/rtabmap_launch.md`
 ## SLAM
 
 Source: https://github.com/luxonis/depthai-ros#readme
