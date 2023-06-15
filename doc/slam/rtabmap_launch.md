@@ -46,3 +46,5 @@ and replace it with the following:
 
 </launch>
 ```
+There was also a change in the value of `<rosparam param="approx_sync_max_interval">0.01</rosparam>`, from **0.02** to **0.01**, due to a recommendation from the terminal itself. The recommendation indicated that inadequate synchronization was occurring and suggested decreasing the value to less than **0.02**. This problem was probably related to the limited performance of the laptop, which **does not have a dedicated graphics card**.
+
